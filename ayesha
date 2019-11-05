@@ -1,0 +1,7 @@
+---
+- host: test
+  tasks:
+    service:
+      name: install vsftp
+      state: present
+      enabled: yes
