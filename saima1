@@ -1,0 +1,7 @@
+---
+- host: test
+  task: 
+    yum:
+      name: vsftpd
+      state: present
+
