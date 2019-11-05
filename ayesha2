@@ -1,0 +1,6 @@
+---
+- host: test
+  tasks:
+    yum:
+      name: nfs install
+        state: present
