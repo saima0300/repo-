@@ -1,0 +1,7 @@
+---
+- host: test
+  tasks:
+    yum:
+      name: install dhcp
+      state: present
+      enabled: yes
