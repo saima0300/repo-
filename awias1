@@ -1,0 +1,6 @@
+---
+- hosts: test
+  tasks:
+    name: install rpm file
+    name: rpm 
+    state: present
